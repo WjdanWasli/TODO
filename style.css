@@ -1,0 +1,55 @@
+body{
+font-size: 20px;
+margin: 100px;
+background-image:url("/1.jpg") ;
+background-repeat : no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+}
+
+ .input{
+     color: #99441d;
+ }
+
+.button, button, input[type='button'], input[type='reset'], input[type='submit']{
+    background-color: hsl(300, 2%, 25%);
+    border: 0.1rem solid #602b12;
+    border-radius: 0.3rem;
+    color: #fffcfc;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.70rem;
+    font-weight: 700;
+    height: 3.8rem;
+    letter-spacing: .1rem;
+    line-height: 3.8rem;
+    padding: 0 3rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    
+}
+.button, button, input[type='button'], input[type='text']{
+    border: solid #8a3b17;
+}
+
+
+h1{
+    color: #141314;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    size: 30px;
+    text-align: center;
+}
+
+p{
+    color: #501515;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    size: 40px;
+    text-align: center;
+}
