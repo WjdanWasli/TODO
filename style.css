@@ -12,6 +12,34 @@ background-size: cover;
 
 }
 
+@media (max-width: 900px) {
+ .content {
+  float:none;
+  width:100%;
+}
+.slider-left {
+ float:none;
+ width:100%;
+}
+}
+@media (max-width: 400px) {
+ .content {
+  float:none;
+  width:100%;
+}
+.slider-left {
+ float:none;
+ width:100%;
+}
+.warp-all {
+ width:98%;
+ 
+}
+}
+
+
+اولاً يجب إضافة كود الميتا التالي  في قسم الهيد للصفحة بعد الوسمم <head> مباشرة
+
  .input{
      color: #99441d;
  }
